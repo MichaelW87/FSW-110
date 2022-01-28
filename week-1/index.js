@@ -1,1 +1,1 @@
-console.log(document)
+document.body.innerHTML = `<h1> Document Object Model Week-1 assignment...</h1>`;
