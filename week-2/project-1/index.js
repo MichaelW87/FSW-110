@@ -2,28 +2,22 @@ var nav = document.createElement('nav');
 document.body.appendChild(nav);
 
 var anchorElmnt = document.createElement('a');
-anchorElmnt.setAttribute('href', '/home');
-var text = document.createTextNode('Home');
+anchorElmnt.setAttribute('href', '/home ');
+var text = document.createTextNode('Home  ');
 anchorElmnt.appendChild(text);
 nav.appendChild(anchorElmnt);
 
-var nav = document.createElement('nav');
-document.body.appendChild(nav);
+var anchorElmnt1 = document.createElement('a');
+anchorElmnt1.setAttribute('href', '/contact ');
+var text = document.createTextNode('Contact  ');
+anchorElmnt1.appendChild(text);
+nav.appendChild(anchorElmnt1);
 
-var anchorElmnt = document.createElement('a');
-anchorElmnt.setAttribute('href', '/contact');
-var text = document.createTextNode('Contact');
-anchorElmnt.appendChild(text);
-nav.appendChild(anchorElmnt);
-
-var nav = document.createElement('nav');
-document.body.appendChild(nav);
-
-var anchorElmnt = document.createElement('a');
-anchorElmnt.setAttribute('href', '/about');
-var text = document.createTextNode('About');
-anchorElmnt.appendChild(text);
-nav.appendChild(anchorElmnt);
+var anchorElmnt2 = document.createElement('a');
+anchorElmnt2.setAttribute('href', '/about ');
+var text = document.createTextNode('About  ');
+anchorElmnt2.appendChild(text);
+nav.appendChild(anchorElmnt2);
 
 
 var h1 = document.createElement('h1');
@@ -34,17 +28,20 @@ var p = document.createElement('p');
 p.textContent = 'Creating paragraph content here';
 document.body.appendChild(p);
 
-var list = document.createElement('li');
-list.textContent = 'Maps';
-document.body.appendChild(list);
+var ul = document.createElement('ul');
+document.body.appendChild(ul)
 
 var list = document.createElement('li');
-list.textContent = 'Weapons';
-document.body.appendChild(list);
+list.innerText = 'Maps';
+ul.appendChild(list);
 
-var list = document.createElement('li');
-list.textContent = 'Items';
-document.body.appendChild(list);
+var list1 = document.createElement('li');
+list1.innerText = 'Weapons';
+ul.appendChild(list1);
+
+var list2 = document.createElement('li');
+list2.innerText = 'Items';
+ul.appendChild(list2);
 
 
 var foot = document.createElement('footer');
