@@ -6,15 +6,18 @@ var newP = document.createElement('p');
 newP.textContent = 'All of this was created with Javascript';
 document.body.appendChild(newP);
 
+var ol = document.createElement('ol');
+document.body.appendChild(ol);
 
-var newListItem = document.createElement('ol');
-newListItem.textContent = 'Vangaurd';
-document.body.appendChild(newListItem);
 
-var newListItem = document.createElement('ol');
-newListItem.textContent = 'Warzone';
-document.body.appendChild(newListItem);
+var newListItem = document.createElement('li');
+newListItem.innerText = 'Vangaurd';
+ol.appendChild(newListItem);
 
-var newListItem = document.createElement('ol');
-newListItem.textContent = 'Kingdom Hearts';
-document.body.appendChild(newListItem);
+var newListItem = document.createElement('li');
+newListItem.innerText = 'Warzone';
+ol.appendChild(newListItem);
+
+var newListItem = document.createElement('li');
+newListItem.innerText = 'Kingdom Hearts';
+ol.appendChild(newListItem);
