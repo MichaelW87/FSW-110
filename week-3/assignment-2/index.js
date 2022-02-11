@@ -6,6 +6,7 @@ for (let i = 0; i < 5; i++) {
     gameName.style.fontWeight = 'lighter';
     gameName.style.fontFamily = 'sansSerif'
     gameName.style.color = 'cornFlowerBlue';
+    gameName.className += 'border'
 }
 
-gameName.border.add();
+
