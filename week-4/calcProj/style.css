@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+    background-color: lightgray;
+}
+
+input {
+    background-color: white;
+    text-align: center;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+#div1 {
+    color: red;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#div2 {
+    color: orangered;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#div3 {
+    color: green;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#div4 {
+    color: purple;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#total {
+    color: black;
+    padding: 20px;
+    font-size: 50px;
+}
