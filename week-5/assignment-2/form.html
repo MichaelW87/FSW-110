@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SqueezedComa's Sweets</title>
+    <link rel="styleSheet" href="style.css">
+    <script src="form.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+</head>
+<body class="form">
+    <img id="image" src="https://images.unsplash.com/photo-1557925923-33b27f891f88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fGNha2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+    <div class="content">
+        <h2 id="heading">Welcome to SqueezedComa's Sweets</h2>
+        <h3 id="text">Please fill out form.</h3>
+        <form id="form1" name="form1">
+            <label>First Name: </label><input type="text" id="fname" name="fname"><br><br>
+            <label>Last Name: </label><input type="text" id="lname" name="lname"><br><br>
+            <label>Event: </label><input type="radio" id="event" name="event" value="Birthday">Birthday</input>
+                                  <input type="radio" id="event" name="event" value="Anniversary">Anniversary</input><br><br>
+            <label>Age/Years: </label><input type="number" id="age" name="age"><br><br>
+            <label>Cake Selection: </label><select id="selc" name="selc">
+                <option value="Cupcakes">Cupcakes</option>
+                <option value="Mini-Cakes">Mini-Cakes</option>
+                <option value="Sheet Cakes">Sheet Cakes</option>
+            </select><br><br>
+            <label>Cake Flavor/Frosting: </label><br><br>
+            Chocolate <input type="checkbox" id="cake" name="cake" value="Chocolate"/><br><br>
+            Vanilla <input type="checkbox" id="cake" name="cake" value="Vanilla"/><br><br>
+            Butter Cream Frosting <input type="checkbox" id="cake" name="cake" value="Butter Cream Frosting"/><br><br>
+            Whipped Frosting <input type="checkbox" id="cake" name="cake" value="Whipped Frosting"/><br><br>
+            <input id="btn" type="button" onclick="bakery()" value="Submit">
+        </form>
+        <h4>Thank you for your order!!!!</h4>
+    </div>
+</body>
+</html>
